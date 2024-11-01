@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: radial-gradient(circle, #98d7c2, #b0dcc1, #c6e1c4, #d9e7cb, #e9ecd5, #e4decb, #dcd0c4, #d0c4be, #aea3a2, #8a8486, #686668, #4a4a4a);
+  color: #4A4A4A;
+  font-family: "Nunito", sans-serif;
+}
+body main section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section .card {
+  max-width: 300px;
+  min-width: 250px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #F9F4E6;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+body main section .card::-webkit-scrollbar {
+  width: 8px;
+}
+body main section .card::-webkit-scrollbar-track {
+  background: #F9F4E6;
+  border-radius: 8px;
+}
+body main section .card::-webkit-scrollbar-thumb {
+  background-color: #D1D1D1;
+  border-radius: 8px;
+  border: 2px solid #F9F4E6;
+}
+body main section .card::-webkit-scrollbar-thumb:hover {
+  background-color: #D1D1D1;
+}
+body main section .card .card-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section .card .card-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section .card .card-task h1 {
+  margin-bottom: 50px;
+}
+body main section .card .card-task form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+body main section .card .card-task form input {
+  background-color: #F9F4E6;
+  width: 250px;
+  border: none;
+  text-align: center;
+  border-bottom: 3px solid #98D7C2;
+}
+body main section .card .card-task form input:focus {
+  border: none;
+  outline: 3px solid #98D7C2;
+  border-radius: 5px;
+  font-family: "Nunito", sans-serif;
+}
+body main section .card .card-task form button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+body main section .card .card-task ul {
+  width: 100%;
+  padding: 0;
+}
+body main section .card .card-task ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body main section .card .card-task ul button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

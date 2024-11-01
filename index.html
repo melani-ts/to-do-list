@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet">
+   <title>To Do List</title>
+</head>
+
+<body>
+   <main>
+      <section>
+         <div class="card">
+            <div class="card-date">
+            </div>
+            <div class="card-task">
+               <h1>Don't Forget</h1>
+               <form id="task-form" for="new-task">
+                  <input id="new-task" type="text" placeholder="New task" autofocus required autocomplete="off">
+                  <button type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px"
+                        fill-rule="nonzero">
+                        <g fill="#98d7c2" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                           stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                           font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                           style="mix-blend-mode: normal">
+                           <g transform="scale(5.12,5.12)">
+                              <path
+                                 d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-12.683 -10.317,-23 -23,-23zM37,26h-11v11h-2v-11h-11v-2h11v-11h2v11h11z">
+                              </path>
+                           </g>
+                        </g>
+                     </svg></button>
+               </form>
+               <ul id="task-list">
+               </ul>
+            </div>
+         </div>
+      </section>
+   </main>
+   <script src="script.js"></script>
+</body>
+
+</html>
