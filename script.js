@@ -24,13 +24,13 @@ const monthCurrent = {
    11: "December "
 }
 const nameWeekCurrent = {
-   0: "Monday",
-   1: "Tuesday",
-   2: "Wednesday",
-   3: "Thursday",
-   4: "Friday",
-   5: "Saturday",
-   6: "Sunday"
+   0: "Sunday",
+   1: "Monday",
+   2: "Tuesday",
+   3: "Wednesday",
+   4: "Thursday",
+   5: "Friday",
+   6: "Saturday"
 }
 
 function currentDate(obj, value) {
@@ -42,6 +42,7 @@ function currentDate(obj, value) {
 }
 const actualMonth = currentDate(monthCurrent, month);
 const actualNameOfWeek = currentDate(nameWeekCurrent, nameWeek);
+
 
 let addHtml = currentDateHTML.innerHTML = `
             <span id="nameOfWeek">${actualNameOfWeek},</span>
